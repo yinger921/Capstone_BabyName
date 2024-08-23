@@ -11,8 +11,11 @@ This project leverages historical baby name data to uncover patterns and predict
 
 ... Key takeaways:
 Names like "Elizabeth" have shown consistent popularity, demonstrating timeless appeal.
+
 Male names exhibit more rapid changes in popularity compared to female names, which suggests differing cycles of name popularity influenced by various social and cultural factors.
+
 Prominent figures and media, such as Elon Musk and Game of Thrones, significantly impact baby name trends.
+
 The analysis of gender ratios, national ratios, and name counts provides different perspectives on naming trends and their practical applications, such as targeted marketing and understanding cultural significance.
 
 ### Demo
@@ -36,19 +39,25 @@ Predictive Features: The app will include predictive models that forecast future
 ... High-level diagrams of entire process:
 
 ... Data Processing Steps:
+
 Data Cleaning: Handling missing values, correcting errors, and standardizing data formats.
+
 Data Aggregation: Grouping data by year, gender, state, and name for trend analysis.
+
 Feature Engineering: Creating new features such as gender ratios and national popularity ratios.
 
 ... Modeling Directions:
 
 Time Series Analysis: To forecast future name trends based on historical data.
+
 Regression Models: To understand the relationship between external factors (e.g., economic indicators, media events) and name popularity.
 
 ... Prototyping Directions:
 
 Interactive Visualizations: Building dashboards for users to explore data.
+
 Predictive Models: Developing models to forecast future trends.
+
 Web-based Apps: Creating a user-friendly interface for real-time interaction with the data.
 
 

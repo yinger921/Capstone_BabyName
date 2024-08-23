@@ -58,7 +58,8 @@ Web-based Apps: Creating a user-friendly interface for real-time interaction wit
 
 #### Repository 
 
-* `data` 
+* `Notebook_data` 
+    - contains EDA notebook
     - contains link to copy of the dataset (stored in a publicly accessible cloud storage)
     - saved copy of aggregated / processed data as long as those are not too large (> 10 MB)
 

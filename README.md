@@ -64,6 +64,7 @@ Web-based Apps: Creating a user-friendly interface for real-time interaction wit
 ### Organization
 
 #### Repository 
+#### --> EDA notebook in /Notebook_data
 
 * `Notebook_data` 
     - contains EDA notebook
@@ -99,7 +100,7 @@ Web-based Apps: Creating a user-friendly interface for real-time interaction wit
 
 #### Dataset
 
-... [Google Drive links to datasets and pickled models](https://drive.google.com/drive/folders/1grMuoCSioozmk6MBnLWtH8v2by4OBfEA)
+... [Google Drive links to datasets and pickled models](https://drive.google.com/drive/folders/1grMuoCSioozmk6MBnLWtH8v2by4OBfEA Date in google drive)
 
 ### Credits
 

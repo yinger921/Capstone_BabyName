@@ -64,7 +64,6 @@ Web-based Apps: Creating a user-friendly interface for real-time interaction wit
 ### Organization
 
 #### Repository 
-#### --> EDA notebook in /Notebook_data
 
 * `Notebook_data` 
     - contains EDA notebook

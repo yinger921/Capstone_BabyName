@@ -1,15 +1,15 @@
 ## Future Baby Names Prediction: Leveraging Famous Influences with Machine Learning
 =========================
 
-### Executive Summary
+### Project Summary
 
-... Define the problem:
+#### Background
 The project focuses on analyzing baby name trends in the United States, identifying the factors influencing these trends, and understanding their broader cultural, societal, and historical implications. Naming a child is a significant cultural act influenced by various factors, including gender ratios, cultural shifts, media influence, and historical events. By exploring these naming patterns, the project aims to reveal insights into how personal names reflect cultural narratives and societal values.
 
-... What is the data science opportunity:
+#### Data Insights
 This project leverages historical baby name data to uncover patterns and predict future trends. It explores the impact of gender ratios, cultural phenomena, media influence, and historical events on the popularity of names. By developing predictive models and creating interactive visualizations, the project can provide valuable insights for parents, marketers, sociologists, and policymakers, aiding in decision-making and understanding cultural trends.
 
-... Key takeaways:
+#### Key takeaways
 Names like "Elizabeth" have shown consistent popularity, demonstrating timeless appeal.
 
 Male names exhibit more rapid changes in popularity compared to female names, which suggests differing cycles of name popularity influenced by various social and cultural factors.
@@ -20,10 +20,10 @@ The analysis of gender ratios, national ratios, and name counts provides differe
 
 ### Demo
 
-... Data Visualizations:
+#### Data Visualizations:
 Visualizations include trend lines showing the popularity of specific names over time, gender ratio analysis across different states, and the impact of cultural phenomena on name popularity.
 
-... Interactive App:\
+#### Interactive App:\
 A web-based app (using streamlit or a similar platform) will serve as an interactive demo. This app will allow users to explore naming trends by state, year, gender, and other demographics. 
 
 Key features of the app include:
@@ -65,16 +65,14 @@ Web-based Apps: Creating a user-friendly interface for real-time interaction wit
 
 #### Repository 
 
-* `Notebook_data` 
-    - contains EDA notebook
-    - contains link to copy of the dataset (stored in a publicly accessible cloud storage)
-    - saved copy of aggregated / processed data as long as those are not too large (> 10 MB)
 
 * `model`
     - `joblib` dump of final model(s)
+* `streamlit`
+    - contains python file to demo the app
 
 * `notebooks`
-    - contains all model notebooks involved in the project
+    - contains all model notebooks involved in the project and data
 
 * `docs`
     - contains final report, presentations which summarize the project

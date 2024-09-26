@@ -23,7 +23,7 @@ The analysis of gender ratios, national ratios, and name counts provides differe
 #### Data Visualizations:
 Visualizations include trend lines showing the popularity of specific names over time, gender ratio analysis across different states, and the impact of cultural phenomena on name popularity.
 
-#### Interactive App:\
+#### Interactive App:
 A web-based app (using streamlit or a similar platform) will serve as an interactive demo. This app will allow users to explore naming trends by state, year, gender, and other demographics. 
 
 Key features of the app include:
@@ -36,9 +36,9 @@ Predictive Features: The app will include predictive models that forecast future
 
 
 ### Methodology
-... High-level diagrams of entire process:
+#### High-level diagrams of entire process:
 
-... Data Processing Steps:
+##### Data Processing Steps:
 
 Data Cleaning: Handling missing values, correcting errors, and standardizing data formats.
 
@@ -46,13 +46,15 @@ Data Aggregation: Grouping data by year, gender, state, and name for trend analy
 
 Feature Engineering: Creating new features such as gender ratios and national popularity ratios.
 
-... Modeling Directions:
+##### Modeling Directions:
 
 Time Series Analysis: To forecast future name trends based on historical data.
 
 Regression Models: To understand the relationship between external factors (e.g., economic indicators, media events) and name popularity.
 
-... Prototyping Directions:
+Cluster Model and Decision Trees: Utilize clustering models and decision trees to analyze and understand the features of popular names.
+
+##### Prototyping Directions:
 
 Interactive Visualizations: Building dashboards for users to explore data.
 

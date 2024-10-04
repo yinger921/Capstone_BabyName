@@ -57,7 +57,7 @@ The repository is structured as follows:
 - **notebooks/**: Jupyter notebooks used during the development and experimentation phases.
 - **docs/**: Reports and presentations summarizing the project.
 - **references/**: Academic papers, tutorials, and resources consulted during the project.
-- **src/**: Data information.
+- **src/**: Data information and sources.
 - **datasets/**: If applicable, smaller datasets used for testing.
 - **.gitignore**: Configuration for ignored files.
 - **conda.yml**: Conda environment specification for setting up dependencies.

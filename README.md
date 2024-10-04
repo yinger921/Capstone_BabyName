@@ -1,108 +1,74 @@
-## Future Baby Names Prediction: Leveraging Famous Influences with Machine Learning
-=========================
+# Future Baby Names Prediction: Leveraging Famous Influences with Machine Learning
 
-### Project Summary
+## Project Summary
 
-#### Background
-The project focuses on analyzing baby name trends in the United States, identifying the factors influencing these trends, and understanding their broader cultural, societal, and historical implications. Naming a child is a significant cultural act influenced by various factors, including gender ratios, cultural shifts, media influence, and historical events. By exploring these naming patterns, the project aims to reveal insights into how personal names reflect cultural narratives and societal values.
+### Background
+The Future Baby Names Prediction project leverages historical baby name data from the United States to uncover trends and predict future naming patterns. The cultural act of naming a child is influenced by various factors such as gender ratios, media influences, and historical events. This project aims to provide insights into how names mirror cultural and societal shifts.
 
-#### Data Insights
-This project leverages historical baby name data to uncover patterns and predict future trends. It explores the impact of gender ratios, cultural phenomena, media influence, and historical events on the popularity of names. By developing predictive models and creating interactive visualizations, the project can provide valuable insights for parents, marketers, sociologists, and policymakers, aiding in decision-making and understanding cultural trends.
+### Data Insights
+Using historical data, the project identifies key patterns and influences on baby name trends. It uncovers the role of gender, media, and historical events in shaping name popularity. The predictive models and interactive visualizations serve as tools for parents, marketers, sociologists, and policymakers to understand these trends better.
 
-#### Key takeaways
-Names like "Elizabeth" have shown consistent popularity, demonstrating timeless appeal.
+**Key Takeaways**:
+- Timeless names like "Elizabeth" maintain consistent popularity across decades.
+- Male names tend to fluctuate in popularity more rapidly than female names, potentially reflecting different cultural cycles.
+- Influences such as media figures and pop culture (e.g., Elon Musk, Game of Thrones) can significantly sway naming trends.
+- Gender and state demographics offer useful perspectives for targeted marketing and sociological analysis.
 
-Male names exhibit more rapid changes in popularity compared to female names, which suggests differing cycles of name popularity influenced by various social and cultural factors.
+### Project Demo
 
-Prominent figures and media, such as Elon Musk and Game of Thrones, significantly impact baby name trends.
+#### Data Visualizations
+The project offers several interactive visualizations:
+- **Trend Lines**: Tracking the popularity of specific names over time.
+- **Gender Ratio Analysis**: Explore the differences in name trends by gender across various states.
+- **Cultural Impact**: See how major media events or figures have influenced baby names.
 
-The analysis of gender ratios, national ratios, and name counts provides different perspectives on naming trends and their practical applications, such as targeted marketing and understanding cultural significance.
+#### Interactive Web Application
+An interactive web app (developed with Streamlit) allows users to explore these naming trends across different parameters. 
 
-### Demo
-
-#### Data Visualizations:
-Visualizations include trend lines showing the popularity of specific names over time, gender ratio analysis across different states, and the impact of cultural phenomena on name popularity.
-
-#### Interactive App:
-A web-based app (using streamlit or a similar platform) will serve as an interactive demo. This app will allow users to explore naming trends by state, year, gender, and other demographics. 
-
-Key features of the app include:
-
-Filtering and Exploration: Users can filter data by state, gender, and time period to see how baby name popularity changes across different regions and over time.
-
-Trend Analysis: Visualizations showing trends in name popularity, the impact of famous personalities on naming choices, and the influence of media events.
-
-Predictive Features: The app will include predictive models that forecast future baby name trends based on historical data and current influencing factors.
-
+**Features**:
+- **Filtering & Exploration**: Filter by state, gender, time period, and see how trends vary regionally and temporally.
+- **Trend Analysis**: Visualize trends in name popularity and explore the impact of celebrities and cultural moments.
+- **Predictive Capabilities**: Forecast future name trends based on historical data and contemporary influences.
 
 ### Methodology
-#### High-level diagrams of entire process:
 
-##### Data Processing Steps:
+#### Data Processing
+The project's methodology includes the following steps:
+1. **Data Cleaning**: Handle missing values, correct inconsistencies, and standardize formats.
+2. **Data Aggregation**: Group data by year, gender, state, and name for better trend analysis.
+3. **Feature Engineering**: Create features like gender ratios and national popularity scores for deeper analysis.
 
-Data Cleaning: Handling missing values, correcting errors, and standardizing data formats.
+#### Modeling Approach
+1. **Time Series Models**: Predict future baby name trends using historical data.
+2. **Regression Models**: Assess the impact of factors such as economic indicators and media events on name popularity.
+3. **Clustering & Decision Trees**: Cluster popular names and analyze their characteristics using decision trees.
 
-Data Aggregation: Grouping data by year, gender, state, and name for trend analysis.
+#### Prototyping
+- **Interactive Visualizations**: Developed dashboards and visual tools for users to explore data.
+- **Predictive Models**: Built models that forecast name trends based on various cultural influences.
+- **Web-based Application**: Implemented a user-friendly web interface for real-time exploration and interaction.
 
-Feature Engineering: Creating new features such as gender ratios and national popularity ratios.
+### Repository Organization
 
-##### Modeling Directions:
+The repository is structured as follows:
 
-Time Series Analysis: To forecast future name trends based on historical data.
+- **model/**: Includes the trained machine learning models in `joblib` format.
+- **streamlit/**: Contains the Streamlit app code for the interactive demo.
+- **notebooks/**: Jupyter notebooks used during the development and experimentation phases.
+- **docs/**: Reports and presentations summarizing the project.
+- **references/**: Academic papers, tutorials, and resources consulted during the project.
+- **src/**: Data information.
+- **datasets/**: If applicable, smaller datasets used for testing.
+- **.gitignore**: Configuration for ignored files.
+- **conda.yml**: Conda environment specification for setting up dependencies.
+- **README.md**: This document.
+- **LICENSE**: The project’s license.
 
-Regression Models: To understand the relationship between external factors (e.g., economic indicators, media events) and name popularity.
+### Dataset Information
 
-Cluster Model and Decision Trees: Utilize clustering models and decision trees to analyze and understand the features of popular names.
+The datasets used in this project, as well as the trained models, can be accessed via the following [Google Drive folder](https://drive.google.com/drive/folders/1grMuoCSioozmk6MBnLWtH8v2by4OBfEA).
 
-##### Prototyping Directions:
+### Credits & Learning
 
-Interactive Visualizations: Building dashboards for users to explore data.
+This project significantly deepened my understanding of the influence of culture, media, and societal changes on naming trends. It also enhanced my skills in predictive modeling and data visualization, particularly using Python, Streamlit, and machine learning tools.
 
-Predictive Models: Developing models to forecast future trends.
-
-Web-based Apps: Creating a user-friendly interface for real-time interaction with the data.
-
-
-### Organization
-
-#### Repository 
-
-
-* `model`
-    - `joblib` dump of final model(s)
-* `streamlit`
-    - contains python file to demo the app
-
-* `notebooks`
-    - contains all model notebooks involved in the project and data
-
-* `docs`
-    - contains final report, presentations which summarize the project
-
-* `references`
-    - contains papers / tutorials used in the project
-
-* `src`
-    - Contains the project source code (refactored from the notebooks)
-
-* `.gitignore`
-    - Part of Git, includes files and folders to be ignored by Git version control
-
-* `conda.yml`
-    - Conda environment specification
-
-* `README.md`
-    - Project landing page (this page)
-
-* `LICENSE`
-    - Project license
-
-#### Dataset
-
-... [Google Drive links to datasets and pickled models](https://drive.google.com/drive/folders/1grMuoCSioozmk6MBnLWtH8v2by4OBfEA Date in google drive)
-
-### Credits
-
-... Include any personal learning
-
-This project deepened understanding of how cultural, social, and media factors influence naming trends. Insights into predictive modeling and visualization techniques were also gained.
